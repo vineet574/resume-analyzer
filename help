@@ -1,0 +1,15 @@
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install streamlit spacy pdfplumber
+python -m spacy download en_core_web_sm
+
+
+Run the project:
+
+bash
+Copy
+Edit
+streamlit run resume_analyzer.py
