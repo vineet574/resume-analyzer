@@ -25,6 +25,6 @@ if uploaded_file:
     st.write(text[:500] + "..." if len(text) > 500 else text)
 
     skills = analyze_resume(text)
-    st.subheader("Identified Skills")
+    st.subheader(" Skills")
     st.write(skills if skills else "No skills identified.")
 
