@@ -1,5 +1,5 @@
 
-import streamlit as s
+import streamlit as st
 import spacy
 import pdfplumber
 
