@@ -12,8 +12,8 @@ def extract_text_from_pdf(pdf_file):
 
 def analyze_resume(text):
     doc = nlp(text)
-    skills = [ent.text for ent in doc.ents if ent.label_ == "ORG"]
-    return skills
+    s = [ent.text for ent in doc.ents if ent.label_ == "ORG"]
+    return s
 
 st.title("AI-Powered Resume Analyzer")
 
